@@ -1,0 +1,34 @@
+﻿  Trainer.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(4198,16): error C2280: 'std::pair<int,Workout> &std::pair<int,Workout>::operator =(volatile const std::pair<int,Workout> &)': attempting to reference a deleted function
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(276): message : see declaration of 'std::pair<int,Workout>::operator ='
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(276,11): message : 'std::pair<int,Workout> &std::pair<int,Workout>::operator =(volatile const std::pair<int,Workout> &)': function was explicitly deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1175): message : see reference to function template instantiation '_OutIt *std::_Copy_unchecked<_Iter,std::pair<int,Workout>*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=std::pair<int,Workout> *,
+              _Iter=std::pair<int,Workout> *,
+              _InIt=std::pair<int,Workout> *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1189): message : see reference to function template instantiation 'void std::vector<OrderPair,std::allocator<OrderPair>>::_Assign_range<_Iter>(_Iter,_Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=std::pair<int,Workout> *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1189): message : see reference to function template instantiation 'void std::vector<OrderPair,std::allocator<OrderPair>>::_Assign_range<_Iter>(_Iter,_Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=std::pair<int,Workout> *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1200): message : see reference to function template instantiation 'void std::vector<OrderPair,std::allocator<OrderPair>>::assign<std::pair<int,Workout>*,0>(_Iter,_Iter)' being compiled
+          with
+          [
+              _Iter=std::pair<int,Workout> *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1200): message : see reference to function template instantiation 'void std::vector<OrderPair,std::allocator<OrderPair>>::assign<std::pair<int,Workout>*,0>(_Iter,_Iter)' being compiled
+          with
+          [
+              _Iter=std::pair<int,Workout> *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1197): message : while compiling class template member function 'void std::vector<OrderPair,std::allocator<OrderPair>>::_Copy_assign(const std::vector<OrderPair,std::allocator<OrderPair>> &,std::false_type)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1216): message : see reference to function template instantiation 'void std::vector<OrderPair,std::allocator<OrderPair>>::_Copy_assign(const std::vector<OrderPair,std::allocator<OrderPair>> &,std::false_type)' being compiled
+C:\Users\nadav\OneDrive\שולחן העבודה\לימודים\SPL\SPL1\SPL1\Trainer.h(36): message : see reference to class template instantiation 'std::vector<OrderPair,std::allocator<OrderPair>>' being compiled

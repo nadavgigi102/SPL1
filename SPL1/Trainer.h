@@ -9,7 +9,14 @@ typedef std::pair<int, Workout> OrderPair;
 
 class Trainer {
 public:
-    Trainer(int t_capacity);
+    //Constructors-rule of 5
+    Trainer* clone() { return new Trainer(*this); }
+    Trainer(int t_capacity);//regurlar constructor
+    Trainer(const Trainer& other);//copy constructor
+    Trainer(Trainer&& other);//move construcetor---------------------TO DO
+    Trainer& operator=(const Trainer& other);//copy assignment-------TO DO
+    Trainer& operator=(Trainer&& other);//move assignment------------TO DO
+    virtual ~Trainer();//destructor----------------------------------TO DO  
     int getCapacity() const;
     void addCustomer(Customer* customer);
     void removeCustomer(int id);
@@ -21,6 +28,8 @@ public:
     void closeTrainer();
     int getSalary();
     bool isOpen();
+    OrderPair getPair();
+    void clear();
 private:
     int capacity;
     bool open;

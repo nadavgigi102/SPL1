@@ -1,7 +1,4 @@
-﻿  SPL1.cpp
-  Workout.cpp
-  Generating Code...
-Customer.obj : error LNK2001: unresolved external symbol "public: virtual class std::vector<int,class std::allocator<int> > __thiscall SweatyCustomer::order(class std::vector<class Workout,class std::allocator<class Workout> > const &)" (?order@SweatyCustomer@@UAE?AV?$vector@HV?$allocator@H@std@@@std@@ABV?$vector@VWorkout@@V?$allocator@VWorkout@@@std@@@3@@Z)
+﻿Customer.obj : error LNK2001: unresolved external symbol "public: virtual class std::vector<int,class std::allocator<int> > __thiscall SweatyCustomer::order(class std::vector<class Workout,class std::allocator<class Workout> > const &)" (?order@SweatyCustomer@@UAE?AV?$vector@HV?$allocator@H@std@@@std@@ABV?$vector@VWorkout@@V?$allocator@VWorkout@@@std@@@3@@Z)
 Customer.obj : error LNK2001: unresolved external symbol "public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall SweatyCustomer::toString(void)const " (?toString@SweatyCustomer@@UBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
 Customer.obj : error LNK2001: unresolved external symbol "public: virtual class std::vector<int,class std::allocator<int> > __thiscall CheapCustomer::order(class std::vector<class Workout,class std::allocator<class Workout> > const &)" (?order@CheapCustomer@@UAE?AV?$vector@HV?$allocator@H@std@@@std@@ABV?$vector@VWorkout@@V?$allocator@VWorkout@@@std@@@3@@Z)
 Customer.obj : error LNK2001: unresolved external symbol "public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall CheapCustomer::toString(void)const " (?toString@CheapCustomer@@UBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
